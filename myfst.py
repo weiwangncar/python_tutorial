@@ -24,6 +24,7 @@ with open(filename, 'r') as datafile:
     data = datafile.read()
 
 # DEBUG
+# check data type (for this one, it is 'str')
 # print(type(data))
 # print(data)
 
