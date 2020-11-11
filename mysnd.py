@@ -1,12 +1,8 @@
-# Read the data file downloaded from ...
-
 # initialize my data variableo
-
 data = []
 
+# Read and parse the data file
 filename = "data/wxobs20170821.txt"
-
-# in place of above 3 lines, one can do
 
 with open(filename, 'r') as datafile:
 
@@ -27,9 +23,6 @@ with open(filename, 'r') as datafile:
 #print(data[0:10])
 #print(data[9])
 #print(data[-1])
-# check data type (for this one, it is 'str')
-# print(type(data))
-# print(data)
 
 #for datum in data[slice(0,10,2)]:
 for datum in data:
